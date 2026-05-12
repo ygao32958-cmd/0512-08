@@ -12,11 +12,11 @@ function preload() {
   handPose = ml5.handPose({ flipped: false });
   
   // 載入 5 款耳環圖片
-  earringImgs[0] = loadImage('pic/acc/acc1_ring.png');
-  earringImgs[1] = loadImage('pic/acc/acc2_pearl.png');
-  earringImgs[2] = loadImage('pic/acc/acc3_tassel.png');
-  earringImgs[3] = loadImage('pic/acc/acc4_jade.png');
-  earringImgs[4] = loadImage('pic/acc/acc5_phoenix.png');
+  earringImgs[0] = loadImage('pic/acc1_ring.png');
+  earringImgs[1] = loadImage('pic/acc2_pearl.png');
+  earringImgs[2] = loadImage('pic/acc3_tassel.png');
+  earringImgs[3] = loadImage('pic/acc4_jade.png');
+  earringImgs[4] = loadImage('pic/acc5_phoenix.png');
 }
 
 function gotFaces(results) {
